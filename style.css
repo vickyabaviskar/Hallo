@@ -1,0 +1,9 @@
+/* Placeholder complete style.css starter */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:linear-gradient(135deg,#1e3a8a,#7c3aed);color:#fff;text-align:center}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:2rem}
+button{padding:.8rem 1.2rem;border:none;border-radius:8px;cursor:pointer}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;padding:2rem}
+.gallery-grid img{width:100%;border-radius:12px}
+.timer{display:flex;justify-content:center;gap:1rem;padding:2rem}
+.back-to-top{position:fixed;right:20px;bottom:20px}
